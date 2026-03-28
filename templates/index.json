@@ -1,1 +1,283 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{}},"slide-2":{"type":"image","settings":{}}},"block_order":["slide-1","slide-2"],"settings":{}},"featured-collections":{"type":"featured-collections","blocks":{"collection-1":{"type":"collection","settings":{}}},"block_order":["collection-1"],"settings":{}},"multi-column":{"type":"multi-column","blocks":{"column-1":{"type":"image_with_text","settings":{}},"column-2":{"type":"image_with_text","settings":{}},"column-3":{"type":"image_with_text","settings":{}}},"block_order":["column-1","column-2","column-3"],"settings":{}},"collection-list":{"type":"collection-list","blocks":{"collection-1":{"type":"collection","settings":{}},"collection-2":{"type":"collection","settings":{}},"collection-3":{"type":"collection","settings":{}},"collection-4":{"type":"collection","settings":{}},"collection-5":{"type":"collection","settings":{}},"collection-6":{"type":"collection","settings":{}}},"block_order":["collection-1","collection-2","collection-3","collection-4","collection-5","collection-6"],"settings":{}},"before-after":{"type":"before-after","blocks":{"before":{"type":"before","settings":{}},"after":{"type":"after","settings":{}}},"block_order":["before","after"],"settings":{}},"image-with-text-scroll":{"type":"images-with-text-scroll","blocks":{"item-1":{"type":"image_with_text","settings":{"title":"#1","content":"<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>"}},"item-2":{"type":"image_with_text","settings":{"title":"#2","content":"<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>"}},"item-3":{"type":"image_with_text","settings":{"title":"#3","content":"<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>"}}},"block_order":["item-1","item-2","item-3"],"settings":{}},"multiple-media-with-text":{"type":"multiple-media-with-text","blocks":{"image-1":{"type":"image","settings":{}},"image-2":{"type":"image","settings":{}}},"block_order":["image-1","image-2"],"settings":{}},"newsletter":{"type":"newsletter","settings":{}},"shop-the-look":{"type":"shop-the-look","blocks":{"look-1":{"type":"look","settings":{}}},"block_order":["look-1"],"settings":{}},"blog-posts":{"type":"blog-posts","settings":{}}},"order":["slideshow","featured-collections","multi-column","collection-list","before-after","image-with-text-scroll","multiple-media-with-text","newsletter","shop-the-look","blog-posts"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "slide-2"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "featured_product_r7G9Rz": {
+      "type": "featured-product",
+      "blocks": {
+        "title_qBHtxL": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_JTHGwW": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_n9G76q": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms_tY43nA": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_BiVCi8": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker_kipdxr": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_qNHcM9": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_eRTY8f": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_PiRgP6": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_qBHtxL",
+        "badges_JTHGwW",
+        "price_n9G76q",
+        "payment_terms_tY43nA",
+        "separator_BiVCi8",
+        "variant_picker_kipdxr",
+        "quantity_selector_qNHcM9",
+        "buy_buttons_eRTY8f",
+        "pickup_availability_PiRgP6"
+      ],
+      "name": "t:sections.featured_product.presets.featured_product.name",
+      "settings": {
+        "color_scheme": "",
+        "product": "7-color-light-facial-mask-therapy",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "Featured product",
+        "content": ""
+      }
+    },
+    "scrolling_content_h3cDDB": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_xNry7h": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products"
+          }
+        }
+      },
+      "block_order": [
+        "text_xNry7h"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 10,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 10,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_TdRh3G": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6xFfMD": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_RhkxDX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6xFfMD",
+        "richtext_RhkxDX"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "scrolling_content_TjTwCm": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_xRw6UR": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to our shop"
+          }
+        }
+      },
+      "block_order": [
+        "text_xRw6UR"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 10,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 10,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "faq_YY4tHB": {
+      "type": "faq",
+      "blocks": {
+        "question_bUnt9B": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "question_bdH8NV": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "question_7Y96ex": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_bUnt9B",
+        "question_bdH8NV",
+        "question_7Y96ex"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured_product_r7G9Rz",
+    "scrolling_content_h3cDDB",
+    "rich_text_TdRh3G",
+    "scrolling_content_TjTwCm",
+    "faq_YY4tHB"
+  ]
+}
