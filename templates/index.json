@@ -15,6 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/1773746678_phps9rukunemtjbfu7oDKc.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -80,6 +81,12 @@
           "type": "separator",
           "settings": {}
         },
+        "liquid_8YtihC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🔴 Powerful LED Light Therapy</span> – Helps reduce acne, smooth wrinkles, and support clearer, healthier-looking skin.<br><br>\n<span style=\"font-weight: bold;\">🌈 7 Color Skin Treatment</span> – Different light modes target multiple skin concerns like dullness, dark circles, and uneven tone.<br><br>\n<span style=\"font-weight: bold;\">✨ Spa-Level Results at Home</span> – Enjoy firmer, brighter, and rejuvenated skin without expensive treatments.\n</div>"
+          }
+        },
         "variant_picker_kipdxr": {
           "type": "variant_picker",
           "settings": {
@@ -116,6 +123,7 @@
         "price_n9G76q",
         "payment_terms_tY43nA",
         "separator_BiVCi8",
+        "liquid_8YtihC",
         "variant_picker_kipdxr",
         "quantity_selector_qNHcM9",
         "buy_buttons_eRTY8f",
@@ -123,7 +131,7 @@
       ],
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-54f04047-7e32-41c0-9374-c93df50d8730",
         "product": "7-color-light-facial-mask-therapy",
         "separate_section_with_border": true,
         "container_size": "lg",
@@ -147,7 +155,7 @@
         "text_xNry7h": {
           "type": "text",
           "settings": {
-            "text": "Discover our products"
+            "text": "GlowDerm"
           }
         }
       },
@@ -167,8 +175,8 @@
         "section_vertical_spacing_desktop": 10,
         "item_horizontal_spacing_mobile": 10,
         "item_horizontal_spacing_desktop": 10,
-        "background": "",
-        "text_color": ""
+        "background": "#e74c78",
+        "text_color": "#ffffff"
       }
     },
     "rich_text_TdRh3G": {
@@ -177,14 +185,14 @@
         "heading_6xFfMD": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "At GlowDerm",
             "heading_tag": "h1"
           }
         },
         "richtext_RhkxDX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>We believe that everyone deserves access to high-quality, effective self-care solutions without the high price tag. That’s why we carefully select advanced beauty products designed to deliver real results from the comfort of your home. From skin rejuvenation to confidence-boosting essentials, our mission is to help you look and feel your best every day.</p><p>Our commitment is simple: quality you can trust, results you can see, and a shopping experience you’ll love.</p>"
           }
         }
       },
@@ -207,7 +215,7 @@
         "text_xRw6UR": {
           "type": "text",
           "settings": {
-            "text": "Welcome to our shop"
+            "text": "Welcome to GlowDerm"
           }
         }
       },
@@ -227,8 +235,8 @@
         "section_vertical_spacing_desktop": 10,
         "item_horizontal_spacing_mobile": 10,
         "item_horizontal_spacing_desktop": 10,
-        "background": "",
-        "text_color": ""
+        "background": "#e74c78",
+        "text_color": "#ffffff"
       }
     },
     "faq_YY4tHB": {
@@ -237,22 +245,22 @@
         "question_bUnt9B": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "question": "How long does shipping take?",
+            "answer": "<p><br/>Shipping typically takes 5–10 business days depending on your location.<br/><br/></p>"
           }
         },
         "question_bdH8NV": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "question": "How can I contact customer support?",
+            "answer": "<p>You can reach us anytime through our contact page or Whatsapp support<br/></p>"
           }
         },
         "question_7Y96ex": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "question": "Do You Offer  cash on delivery?",
+            "answer": "<p>Yes! Payment method is cash on delivery</p>"
           }
         }
       },

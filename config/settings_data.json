@@ -10,6 +10,8 @@
 {
   "current": {
     "section_vertical_spacing": "md",
+    "default_color_scheme": "scheme-54f04047-7e32-41c0-9374-c93df50d8730",
+    "modal_color_scheme": "scheme-54f04047-7e32-41c0-9374-c93df50d8730",
     "product_rating_color": "#1c1c1c",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#e74c78",
@@ -71,12 +73,23 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
+          "background": "#e74c78",
           "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
           "primary_button_text_color": "#1c1c1c",
           "circle_button_background": "#ffffff",
+          "circle_button_icon": "#1c1c1c"
+        }
+      },
+      "scheme-54f04047-7e32-41c0-9374-c93df50d8730": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text_color": "#5c5c5c",
+          "primary_button_background": "#e74c78",
+          "primary_button_text_color": "#ffffff",
+          "circle_button_background": "#e74c78",
           "circle_button_icon": "#1c1c1c"
         }
       }
