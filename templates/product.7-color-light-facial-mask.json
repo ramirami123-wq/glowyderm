@@ -120,24 +120,16 @@
     "scrolling_content_axjWmR": {
       "type": "scrolling-content",
       "blocks": {
-        "text_AMWetT": {
-          "type": "text",
-          "settings": {
-            "text": "Welcome to our shop"
-          }
-        },
         "text_4riXQz": {
           "type": "text",
           "settings": {
-            "text": "Discover our products"
+            "text": "Glow from within."
           }
         }
       },
       "block_order": [
-        "text_AMWetT",
         "text_4riXQz"
       ],
-      "disabled": true,
       "name": "t:sections.scrolling_content.presets.scrolling_content.name",
       "settings": {
         "separate_section_with_border": true,
@@ -158,36 +150,29 @@
     "image_with_text_hjthtV": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_JKT8MH": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_ykydTh": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "<strong>Glow Smarter</strong>",
             "heading_tag": "h1"
           }
         },
         "richtext_eXFCaa": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p><br/>Achieve clearer, brighter skin with advanced LED light therapy designed for real results at home.<br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "subheading_JKT8MH",
         "heading_ykydTh",
         "richtext_eXFCaa"
       ],
-      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/1773746678_php97o9n6nincuu6rS8bF2.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -197,24 +182,16 @@
     "scrolling_content_QctTXw": {
       "type": "scrolling-content",
       "blocks": {
-        "text_C7PDbN": {
-          "type": "text",
-          "settings": {
-            "text": "Welcome to our shop"
-          }
-        },
         "text_yBnELq": {
           "type": "text",
           "settings": {
-            "text": "Discover our products"
+            "text": "Skincare made simple"
           }
         }
       },
       "block_order": [
-        "text_C7PDbN",
         "text_yBnELq"
       ],
-      "disabled": true,
       "name": "t:sections.scrolling_content.presets.scrolling_content.name",
       "settings": {
         "separate_section_with_border": true,
@@ -235,36 +212,29 @@
     "image_with_text_aHJFBd": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_xxa9qk": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_ycEEMW": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "Your Daily Skin Boost",
             "heading_tag": "h1"
           }
         },
         "richtext_x7ffCe": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Target acne, wrinkles, and dullness effortlessly with a simple routine that fits into your day.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_xxa9qk",
         "heading_ycEEMW",
         "richtext_x7ffCe"
       ],
-      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/1773746678_phps9rukunemtjbfu7oDKc.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -280,19 +250,19 @@
             "feature_column_title": "Feature",
             "us_column_title": "Us",
             "others_column_title": "Others",
-            "feature_1": "Premium quality",
+            "feature_1": "7 Color Light Therapy",
             "us_1": true,
             "others_1": false,
-            "feature_2": "Free shipping",
+            "feature_2": "Acne Treatment Support",
             "us_2": true,
             "others_2": false,
-            "feature_3": "30-day guarantee",
+            "feature_3": "Anti-Aging (Wrinkles)",
             "us_3": true,
             "others_3": false,
-            "feature_4": "24/7 support",
+            "feature_4": "Skin Rejuvenation",
             "us_4": true,
             "others_4": true,
-            "feature_5": "Eco-friendly",
+            "feature_5": "Safe for Home Use",
             "us_5": true,
             "others_5": false,
             "feature_6": "",
@@ -327,7 +297,6 @@
       "block_order": [
         "ai_gen_block_fd82a43_c4cfFz"
       ],
-      "disabled": true,
       "settings": {}
     },
     "17747248747043a87c": {
