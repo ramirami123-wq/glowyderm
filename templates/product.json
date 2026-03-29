@@ -36,11 +36,10 @@
           "type": "separator",
           "settings": {}
         },
-        "description": {
-          "type": "description",
+        "liquid_afJpq4": {
+          "type": "liquid",
           "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🔴 Powerful LED Light Therapy</span> – Helps reduce acne, smooth wrinkles, and support clearer, healthier-looking skin.<br><br>\n<span style=\"font-weight: bold;\">🌈 7 Color Skin Treatment</span> – Different light modes target multiple skin concerns like dullness, dark circles, and uneven tone.<br><br>\n<span style=\"font-weight: bold;\">✨ Spa-Level Results at Home</span> – Enjoy firmer, brighter, and rejuvenated skin without expensive treatments.\n</div>"
           }
         },
         "variant_picker": {
@@ -85,14 +84,14 @@
         "price",
         "payment_terms",
         "separator",
-        "description",
+        "liquid_afJpq4",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "complementary_products"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-54f04047-7e32-41c0-9374-c93df50d8730",
         "container_size": "lg",
         "product_info_size": 35,
         "show_sticky_add_to_cart": true,
@@ -129,7 +128,7 @@
         "judge_me_reviews_review_widget_WmtmKE": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "review_data": "sample_data",
+            "review_data": "real_data",
             "max_width": 1200,
             "show_shop_reviews": false,
             "empty_state": "empty_widget"
@@ -145,11 +144,224 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "scrolling_content_axjWmR": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_AMWetT": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to our shop"
+          }
+        },
+        "text_4riXQz": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products"
+          }
+        }
+      },
+      "block_order": [
+        "text_AMWetT",
+        "text_4riXQz"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 10,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 10,
+        "background": "#e74c78",
+        "text_color": "#ffffff"
+      }
+    },
+    "image_with_text_hjthtV": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_JKT8MH": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_ykydTh": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_eXFCaa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JKT8MH",
+        "heading_ykydTh",
+        "richtext_eXFCaa"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "scrolling_content_QctTXw": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_C7PDbN": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to our shop"
+          }
+        },
+        "text_yBnELq": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products"
+          }
+        }
+      },
+      "block_order": [
+        "text_C7PDbN",
+        "text_yBnELq"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 10,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 10,
+        "background": "#e74c78",
+        "text_color": "#ffffff"
+      }
+    },
+    "17747965999cb5a8a1": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_fd82a43_c4cfFz": {
+          "type": "ai_gen_block_fd82a43",
+          "settings": {
+            "feature_column_title": "Feature",
+            "us_column_title": "Us",
+            "others_column_title": "Others",
+            "feature_1": "Premium quality",
+            "us_1": true,
+            "others_1": false,
+            "feature_2": "Free shipping",
+            "us_2": true,
+            "others_2": false,
+            "feature_3": "30-day guarantee",
+            "us_3": true,
+            "others_3": false,
+            "feature_4": "24/7 support",
+            "us_4": true,
+            "others_4": true,
+            "feature_5": "Eco-friendly",
+            "us_5": true,
+            "others_5": false,
+            "feature_6": "",
+            "us_6": true,
+            "others_6": false,
+            "feature_7": "",
+            "us_7": true,
+            "others_7": false,
+            "feature_8": "",
+            "us_8": true,
+            "others_8": false,
+            "desktop_width_percent": 100,
+            "table_background": "#ffffff",
+            "border_color": "#e0e0e0",
+            "border_radius": 8,
+            "cell_padding": 16,
+            "header_background": "#f5f5f5",
+            "header_text_color": "#1c1c1c",
+            "header_font_size": 16,
+            "us_column_background": "#e74c78",
+            "us_column_text_color": "#ffffff",
+            "us_cell_background": "#fef5f8",
+            "body_text_color": "#5c5c5c",
+            "body_font_size": 14,
+            "icon_size": 24,
+            "checkmark_color": "#307a07",
+            "cross_color": "#cb2b2b"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_fd82a43_c4cfFz"
+      ],
+      "settings": {}
+    },
+    "image_with_text_aHJFBd": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_xxa9qk": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_ycEEMW": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_x7ffCe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xxa9qk",
+        "heading_ycEEMW",
+        "richtext_x7ffCe"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17747248747043a87c"
+    "17747248747043a87c",
+    "scrolling_content_axjWmR",
+    "image_with_text_hjthtV",
+    "scrolling_content_QctTXw",
+    "image_with_text_aHJFBd",
+    "17747965999cb5a8a1"
   ]
 }
