@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -79,7 +75,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
         "payment_terms",
@@ -120,29 +115,6 @@
         "subheading": "",
         "title": "Related products",
         "content": ""
-      }
-    },
-    "17747248747043a87c": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_WmtmKE": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "real_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_WmtmKE"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
       }
     },
     "scrolling_content_axjWmR": {
@@ -257,6 +229,44 @@
         "text_color": "#ffffff"
       }
     },
+    "image_with_text_aHJFBd": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_xxa9qk": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_ycEEMW": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_x7ffCe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xxa9qk",
+        "heading_ycEEMW",
+        "richtext_x7ffCe"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
     "17747965999cb5a8a1": {
       "type": "_blocks",
       "blocks": {
@@ -315,53 +325,38 @@
       ],
       "settings": {}
     },
-    "image_with_text_aHJFBd": {
-      "type": "image-with-text",
+    "17747248747043a87c": {
+      "type": "apps",
       "blocks": {
-        "subheading_xxa9qk": {
-          "type": "subheading",
+        "judge_me_reviews_review_widget_WmtmKE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_ycEEMW": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_x7ffCe": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
       "block_order": [
-        "subheading_xxa9qk",
-        "heading_ycEEMW",
-        "richtext_x7ffCe"
+        "judge_me_reviews_review_widget_WmtmKE"
       ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
       }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17747248747043a87c",
     "scrolling_content_axjWmR",
     "image_with_text_hjthtV",
     "scrolling_content_QctTXw",
     "image_with_text_aHJFBd",
-    "17747965999cb5a8a1"
+    "17747965999cb5a8a1",
+    "17747248747043a87c"
   ]
 }
