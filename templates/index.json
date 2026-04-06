@@ -149,36 +149,6 @@
         "content": ""
       }
     },
-    "scrolling_content_h3cDDB": {
-      "type": "scrolling-content",
-      "blocks": {
-        "text_xNry7h": {
-          "type": "text",
-          "settings": {
-            "text": "GlowDerm"
-          }
-        }
-      },
-      "block_order": [
-        "text_xNry7h"
-      ],
-      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "scrolling_speed": 0.3,
-        "scroll_direction": "left",
-        "pause_on_hover": false,
-        "text_font": "heading",
-        "text_font_size_mobile": 40,
-        "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 10,
-        "section_vertical_spacing_desktop": 10,
-        "item_horizontal_spacing_mobile": 10,
-        "item_horizontal_spacing_desktop": 10,
-        "background": "#e74c78",
-        "text_color": "#ffffff"
-      }
-    },
     "rich_text_TdRh3G": {
       "type": "rich-text",
       "blocks": {
@@ -207,36 +177,6 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "scrolling_content_TjTwCm": {
-      "type": "scrolling-content",
-      "blocks": {
-        "text_xRw6UR": {
-          "type": "text",
-          "settings": {
-            "text": "Welcome to GlowDerm"
-          }
-        }
-      },
-      "block_order": [
-        "text_xRw6UR"
-      ],
-      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "scrolling_speed": 0.3,
-        "scroll_direction": "left",
-        "pause_on_hover": false,
-        "text_font": "heading",
-        "text_font_size_mobile": 40,
-        "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 10,
-        "section_vertical_spacing_desktop": 10,
-        "item_horizontal_spacing_mobile": 10,
-        "item_horizontal_spacing_desktop": 10,
-        "background": "#e74c78",
-        "text_color": "#ffffff"
       }
     },
     "faq_YY4tHB": {
@@ -278,14 +218,56 @@
         "title": "Frequently Asked Questions",
         "content": ""
       }
+    },
+    "before_after_DdxNGQ": {
+      "type": "before-after",
+      "blocks": {
+        "before_CNgxdA": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/bf.jpg",
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        },
+        "after_E9aNUW": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/bf.jpg",
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_CNgxdA",
+        "after_E9aNUW"
+      ],
+      "name": "t:sections.before_after.presets.before_after.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
     }
   },
   "order": [
     "slideshow",
     "featured_product_r7G9Rz",
-    "scrolling_content_h3cDDB",
     "rich_text_TdRh3G",
-    "scrolling_content_TjTwCm",
-    "faq_YY4tHB"
+    "faq_YY4tHB",
+    "before_after_DdxNGQ"
   ]
 }
