@@ -179,6 +179,49 @@
         "remove_vertical_spacing": false
       }
     },
+    "before_after_DdxNGQ": {
+      "type": "before-after",
+      "blocks": {
+        "before_CNgxdA": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/bf.jpg",
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        },
+        "after_E9aNUW": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/bf.jpg",
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_CNgxdA",
+        "after_E9aNUW"
+      ],
+      "name": "t:sections.before_after.presets.before_after.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
     "faq_YY4tHB": {
       "type": "faq",
       "blocks": {
@@ -218,56 +261,13 @@
         "title": "Frequently Asked Questions",
         "content": ""
       }
-    },
-    "before_after_DdxNGQ": {
-      "type": "before-after",
-      "blocks": {
-        "before_CNgxdA": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/bf.jpg",
-            "text": "Before",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        },
-        "after_E9aNUW": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/bf.jpg",
-            "text": "After",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "before_CNgxdA",
-        "after_E9aNUW"
-      ],
-      "name": "t:sections.before_after.presets.before_after.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
-      }
     }
   },
   "order": [
     "slideshow",
     "featured_product_r7G9Rz",
     "rich_text_TdRh3G",
-    "faq_YY4tHB",
-    "before_after_DdxNGQ"
+    "before_after_DdxNGQ",
+    "faq_YY4tHB"
   ]
 }
