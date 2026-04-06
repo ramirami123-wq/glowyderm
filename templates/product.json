@@ -57,9 +57,9 @@
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#ce967d",
             "atc_button_text_color": "",
-            "payment_button_background": "",
+            "payment_button_background": "#8a5948",
             "payment_button_text_color": ""
           }
         },
@@ -86,7 +86,7 @@
         "complementary_products"
       ],
       "settings": {
-        "color_scheme": "scheme-54f04047-7e32-41c0-9374-c93df50d8730",
+        "color_scheme": "scheme-1",
         "container_size": "lg",
         "product_info_size": 35,
         "show_sticky_add_to_cart": true,
