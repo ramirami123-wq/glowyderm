@@ -59,19 +59,10 @@
             "button_background": "",
             "button_text_color": ""
           }
-        },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true,
-            "menu_title": ""
-          }
         }
       },
       "block_order": [
-        "newsletter",
-        "links"
+        "newsletter"
       ],
       "settings": {
         "color_scheme": "scheme-4",
