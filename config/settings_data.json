@@ -41,6 +41,54 @@
         "type": "shopify://apps/moose-whatsapp-chat-button/blocks/whatsapp/b77db749-c44a-4265-8135-8b842af1b111",
         "disabled": true,
         "settings": {}
+      },
+      "523047452119367057": {
+        "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_follow/4b018859-0735-4f1f-a415-e97b706a3b48",
+        "disabled": false,
+        "settings": {
+          "ig_handle": "YOUR_INSTAGRAM_HANDLE",
+          "display_position": "br",
+          "show_msg_with_icon": "1",
+          "text_with_icon": "Follow Us",
+          "icon_size": 55,
+          "bottom_spacing": 0,
+          "display_icon_at": "everywhere"
+        }
+      },
+      "4203449132760434207": {
+        "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_chat/4b018859-0735-4f1f-a415-e97b706a3b48",
+        "disabled": false,
+        "settings": {
+          "ig_handle": "YOUR_INSTAGRAM_HANDLE",
+          "display_position": "br",
+          "show_msg_with_icon": "1",
+          "chat_text_with_icon": "DM Us 💬",
+          "icon_size": 55,
+          "bottom_spacing": 0
+        }
+      },
+      "12331555957852958980": {
+        "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_popup/4b018859-0735-4f1f-a415-e97b706a3b48",
+        "disabled": false,
+        "settings": {
+          "loadSeconds": 5,
+          "pp_top_title": "🎁 We’ve got a sweet discount just for you! 🎁",
+          "pp_middle_title": "<p>Follow us on Instagram to get notified on new updates, releases & free goodies offers! Have fun shopping with us.</p>",
+          "pp_IgHandle": "YOUR_INSTAGRAM_HANDLE",
+          "ppBgClr": "#ffffff",
+          "ppClr": "#121212",
+          "fbtnBgClr": "#000000",
+          "fbtnClr": "#ffffff",
+          "fbtnText": "FOLLOW US",
+          "nbtnText": "NO THANKS",
+          "offerDiscount": "0",
+          "ppDiscountCode": "ENTER_DISCOUNT_CODE",
+          "thankMsg": "<p>Thanks for following us on Instagram! Use this discount code at checkout for savings. 🎁</p>",
+          "copyMSg": "COPY CODE",
+          "copiedMSg": "COPIED!",
+          "closeDays": 0,
+          "hide_in_editor": false
+        }
       }
     },
     "color_schemes": {
