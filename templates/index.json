@@ -71,110 +71,15 @@
         "slide-2"
       ],
       "settings": {
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_next_section_button": true,
-        "media_size": "fill",
-        "show_initial_transition": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
         "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
-      }
-    },
-    "featured_product_r7G9Rz": {
-      "type": "featured-product",
-      "blocks": {
-        "title_qBHtxL": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h3"
-          }
-        },
-        "badges_JTHGwW": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_n9G76q": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "payment_terms_tY43nA": {
-          "type": "payment_terms",
-          "settings": {}
-        },
-        "separator_BiVCi8": {
-          "type": "separator",
-          "settings": {}
-        },
-        "liquid_8YtihC": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">🔴 Powerful LED Light Therapy</span> – Helps reduce acne, smooth wrinkles, and support clearer, healthier-looking skin.<br><br>\n<span style=\"font-weight: bold;\">🌈 7 Color Skin Treatment</span> – Different light modes target multiple skin concerns like dullness, dark circles, and uneven tone.<br><br>\n<span style=\"font-weight: bold;\">✨ Spa-Level Results at Home</span> – Enjoy firmer, brighter, and rejuvenated skin without expensive treatments.\n</div>"
-          }
-        },
-        "variant_picker_kipdxr": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_qNHcM9": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_eRTY8f": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_PiRgP6": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_qBHtxL",
-        "badges_JTHGwW",
-        "price_n9G76q",
-        "payment_terms_tY43nA",
-        "separator_BiVCi8",
-        "liquid_8YtihC",
-        "variant_picker_kipdxr",
-        "quantity_selector_qNHcM9",
-        "buy_buttons_eRTY8f",
-        "pickup_availability_PiRgP6"
-      ],
-      "name": "t:sections.featured_product.presets.featured_product.name",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "product": "7-color-light-facial-mask-therapy",
-        "separate_section_with_border": true,
-        "container_size": "lg",
-        "product_info_size": 46,
-        "center_basic_info": false,
-        "desktop_media_layout": "grid",
-        "desktop_media_grid_gap": 30,
-        "mobile_controls": "dots",
-        "enable_media_autoplay": true,
-        "enable_video_looping": true,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "subheading": "",
-        "title": "Explore Our Premium Product",
-        "content": ""
       }
     },
     "rich_text_TdRh3G": {
@@ -292,13 +197,43 @@
         "title": "Frequently Asked Questions",
         "content": ""
       }
+    },
+    "featured_collections_ghRmkc": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_neDbwt": {
+          "type": "collection",
+          "settings": {
+            "collection": "light-facial-mask",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_neDbwt"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "horizontal_spacing_factor": 1.6,
+        "vertical_spacing_factor": 1,
+        "subheading": "Explore Our Premium Product"
+      }
     }
   },
   "order": [
     "slideshow",
-    "featured_product_r7G9Rz",
     "rich_text_TdRh3G",
     "slideshow_Fq6KAp",
-    "faq_YY4tHB"
+    "faq_YY4tHB",
+    "featured_collections_ghRmkc"
   ]
 }
