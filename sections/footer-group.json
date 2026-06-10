@@ -51,6 +51,22 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_aFBzKU": {
+          "type": "text",
+          "settings": {
+            "title": "About our store",
+            "content": "<p>Our commitment is simple: quality you can trust, results you can see, and a shopping experience you’ll love.</p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "links_wzX9qA": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
@@ -62,10 +78,12 @@
         }
       },
       "block_order": [
+        "text_aFBzKU",
+        "links_wzX9qA",
         "newsletter"
       ],
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": false,
         "show_social_media": true,
         "show_payment_icons": true,
