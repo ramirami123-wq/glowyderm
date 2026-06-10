@@ -198,34 +198,22 @@
         "content": ""
       }
     },
-    "featured_collections_ghRmkc": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_neDbwt": {
-          "type": "collection",
-          "settings": {
-            "collection": "light-facial-mask",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_neDbwt"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+    "recently_viewed_products_UFdJJn": {
+      "type": "recently-viewed-products",
+      "name": "t:sections.recently_viewed_products.presets.recently_viewed_products.name",
       "settings": {
+        "separate_section_with_border": true,
         "color_scheme": "",
-        "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 2,
-        "horizontal_spacing_factor": 1.6,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Explore Our Premium Product"
+        "subheading": "",
+        "title": "Recently viewed products",
+        "content": ""
       }
     }
   },
@@ -234,6 +222,6 @@
     "rich_text_TdRh3G",
     "slideshow_Fq6KAp",
     "faq_YY4tHB",
-    "featured_collections_ghRmkc"
+    "recently_viewed_products_UFdJJn"
   ]
 }
