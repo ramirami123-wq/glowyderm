@@ -38,11 +38,11 @@
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky": true,
-        "hide_on_scroll": false,
+        "hide_on_scroll": true,
         "show_separation_border": true,
         "reduce_padding": true,
         "logo": "shopify://shop_images/191ca22e-af6c-4c7e-a753-6519886d87a6_removalai_preview.png",
-        "logo_max_width": 165,
+        "logo_max_width": 230,
         "logo_mobile_max_width": 125,
         "menu": "main-menu",
         "sidebar_menu": "",
@@ -57,7 +57,8 @@
         "show_country_name": false,
         "show_country_flag": true,
         "show_locale_selector": false,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/191ca22e-af6c-4c7e-a753-6519886d87a6_removalai_preview.png"
       }
     },
     "1776068728758a7cc1": {
