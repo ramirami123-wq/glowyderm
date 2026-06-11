@@ -42,7 +42,6 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_03_01_36_PM.png",
-            "mobile_image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_03_45_27_PM.png",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
