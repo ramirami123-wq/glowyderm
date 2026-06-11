@@ -214,6 +214,10 @@
         "title": "Recently viewed products",
         "content": ""
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
     }
   },
   "order": [
@@ -221,6 +225,7 @@
     "rich_text_TdRh3G",
     "slideshow_Fq6KAp",
     "faq_YY4tHB",
-    "recently_viewed_products_UFdJJn"
+    "recently_viewed_products_UFdJJn",
+    "pagefly-home"
   ]
 }
