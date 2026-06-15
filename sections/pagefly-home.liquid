@@ -59,7 +59,7 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 				window.__pagefly_collections_count = {{shop.collections_count}};
 				{% for variant in _product.variants %}
 				window.__pagefly_variant_stock[{{ variant.id }}] = {{ variant.inventory_quantity }};
-				{% endfor %}</script><span data-badge-type="discount">0</span>%, only <span data-badge-type="stock">49</span> left</div></div><div class="sc-heIBZE UsTBL pf-109_ pf-list-media    " data-pf-type="MediaList2"><div class="pf-media-slider scrollfix " style="--dpi-xs:0%;--gap-xs:10px" data-id="slider-4d0a78d4-99f8-477b-bfca-e19df399d9e8">{% for media_item in media %}
+				{% endfor %}</script><span data-badge-type="discount">0</span>%</div></div><div class="sc-heIBZE UsTBL pf-109_ pf-list-media    " data-pf-type="MediaList2"><div class="pf-media-slider scrollfix " style="--dpi-xs:0%;--gap-xs:10px" data-id="slider-4d0a78d4-99f8-477b-bfca-e19df399d9e8">{% for media_item in media %}
               {% assign media_type = media_item.media_type %}<div class="sc-dNcjNe gyKpXy pf-110_ pf-slide-list-media" data-img-id="{{ media_item.id }}" data-media-type="{{ media_item.media_type }}" data-pf-type="MediaItem2">
           {% assign base_url = media_item | image_url %}
           {% assign widths = "150, 250, 350, 450" | split: ', ' %}
