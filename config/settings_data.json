@@ -41,19 +41,6 @@
         "disabled": false,
         "settings": {}
       },
-      "523047452119367057": {
-        "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_follow/4b018859-0735-4f1f-a415-e97b706a3b48",
-        "disabled": false,
-        "settings": {
-          "ig_handle": "YOUR_INSTAGRAM_HANDLE",
-          "display_position": "br",
-          "show_msg_with_icon": "1",
-          "text_with_icon": "Follow Us",
-          "icon_size": 55,
-          "bottom_spacing": 0,
-          "display_icon_at": "everywhere"
-        }
-      },
       "12331555957852958980": {
         "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_popup/4b018859-0735-4f1f-a415-e97b706a3b48",
         "disabled": true,
@@ -97,6 +84,19 @@
           "chat_text_with_icon": "DM Us 💬",
           "icon_size": 55,
           "bottom_spacing": 0
+        }
+      },
+      "523047452119367057": {
+        "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_follow/4b018859-0735-4f1f-a415-e97b706a3b48",
+        "disabled": true,
+        "settings": {
+          "ig_handle": "YOUR_INSTAGRAM_HANDLE",
+          "display_position": "br",
+          "show_msg_with_icon": "1",
+          "text_with_icon": "Follow Us",
+          "icon_size": 55,
+          "bottom_spacing": 0,
+          "display_icon_at": "everywhere"
         }
       }
     },
