@@ -54,18 +54,6 @@
           "display_icon_at": "everywhere"
         }
       },
-      "4203449132760434207": {
-        "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_chat/4b018859-0735-4f1f-a415-e97b706a3b48",
-        "disabled": false,
-        "settings": {
-          "ig_handle": "glowyderm.lb?igsh=aHR3MmoyZnAya3Ez",
-          "display_position": "br",
-          "show_msg_with_icon": "1",
-          "chat_text_with_icon": "DM Us 💬",
-          "icon_size": 55,
-          "bottom_spacing": 0
-        }
-      },
       "12331555957852958980": {
         "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_popup/4b018859-0735-4f1f-a415-e97b706a3b48",
         "disabled": true,
@@ -98,6 +86,18 @@
         "type": "shopify://apps/moose-whatsapp/blocks/whatsapp/b77db749-c44a-4265-8135-8b842af1b111",
         "disabled": false,
         "settings": {}
+      },
+      "4203449132760434207": {
+        "type": "shopify://apps/instagram-feed-chat-button/blocks/ig_chat/4b018859-0735-4f1f-a415-e97b706a3b48",
+        "disabled": true,
+        "settings": {
+          "ig_handle": "glowyderm.lb?igsh=aHR3MmoyZnAya3Ez",
+          "display_position": "br",
+          "show_msg_with_icon": "1",
+          "chat_text_with_icon": "DM Us 💬",
+          "icon_size": 55,
+          "bottom_spacing": 0
+        }
       }
     },
     "color_schemes": {
