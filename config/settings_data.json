@@ -20,9 +20,10 @@
     "success_color": "#307a07",
     "warning_color": "#ed8a00",
     "error_color": "#cb2b2b",
-    "heading_font": "futura_n4",
+    "heading_font": "barlow_n4",
+    "heading_text_transform": "uppercase",
     "heading_letter_spacing": 13,
-    "text_font": "ibm_plex_serif_n4",
+    "text_font": "barlow_n4",
     "text_font_size_desktop": 15,
     "button_text_font": "heading",
     "button_letter_spacing": 18,
@@ -331,5 +332,10 @@
       "product_sold_out_badge_background": "#efefef",
       "product_custom_badge_background": "#1c1c1c"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "body {font-family: \"Barlow\", Arial, sans-serif !important;}"
+    ]
   }
 }
