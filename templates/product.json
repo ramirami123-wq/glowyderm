@@ -367,39 +367,29 @@
         "testimonial_g7aNG8": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "content": "<p>Super easy to use, the red and blue lights are by far the best to use for cleansing and acne prevention, fit can be a little finicky but it works</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
-            "author": ""
+            "author": "Nadine K"
           }
         },
         "testimonial_UnKBDj": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "content": "<p>“I’ve been using this LED face mask for a few days and really like it so far. The different light colors are easy to switch between, and the mask feels comfortable on my face. It’s relaxing to use after a long day, and my skin already looks fresher and smoother. The battery life is good and the quality feels nice for the price. Great addition to my skincare routine!”</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        },
-        "testimonial_CVxCjp": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
+            "author": "Dana"
           }
         }
       },
       "block_order": [
         "testimonial_g7aNG8",
-        "testimonial_UnKBDj",
-        "testimonial_CVxCjp"
+        "testimonial_UnKBDj"
       ],
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": true,
         "auto_rotate_between_testimonials": false,
         "cycle_speed": 5,
