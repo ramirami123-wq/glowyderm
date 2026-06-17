@@ -209,6 +209,49 @@
       ],
       "settings": {}
     },
+    "before_after_qYC7zh": {
+      "type": "before-after",
+      "blocks": {
+        "before_qfB6bF": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/bf.jpg",
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        },
+        "after_D8cBqg": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/bf.jpg",
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_qfB6bF",
+        "after_D8cBqg"
+      ],
+      "name": "t:sections.before_after.presets.before_after.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
     "testimonials_RCpVAj": {
       "type": "testimonials",
       "blocks": {
@@ -257,48 +300,64 @@
         "content": ""
       }
     },
-    "before_after_qYC7zh": {
-      "type": "before-after",
+    "blocks_gHWGRH": {
+      "type": "_blocks",
       "blocks": {
-        "before_qfB6bF": {
-          "type": "before",
+        "ai_gen_block_fd82a43_pzrcQ8": {
+          "type": "ai_gen_block_fd82a43",
           "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/bf.jpg",
-            "text": "Before",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        },
-        "after_D8cBqg": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/bf.jpg",
-            "text": "After",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
+            "feature_column_title": "Feature",
+            "us_column_title": "Us",
+            "others_column_title": "Others",
+            "feature_1": "Premium quality",
+            "us_1": true,
+            "others_1": false,
+            "feature_2": "Free shipping",
+            "us_2": true,
+            "others_2": false,
+            "feature_3": "30-day guarantee",
+            "us_3": true,
+            "others_3": false,
+            "feature_4": "24/7 support",
+            "us_4": true,
+            "others_4": true,
+            "feature_5": "Eco-friendly",
+            "us_5": true,
+            "others_5": false,
+            "feature_6": "",
+            "us_6": true,
+            "others_6": false,
+            "feature_7": "",
+            "us_7": true,
+            "others_7": false,
+            "feature_8": "",
+            "us_8": true,
+            "others_8": false,
+            "desktop_width_percent": 100,
+            "table_background": "#ffffff",
+            "border_color": "#e0e0e0",
+            "border_radius": 8,
+            "cell_padding": 16,
+            "header_background": "#010101",
+            "header_text_color": "#FFFFFF",
+            "header_font_size": 18,
+            "us_column_background": "#010101",
+            "us_column_text_color": "#ffffff",
+            "us_cell_background": "#F4F4F4",
+            "body_text_color": "#010101",
+            "body_font_size": 15,
+            "icon_size": 24,
+            "checkmark_color": "#307a07",
+            "cross_color": "#cb2b2b"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "before_qfB6bF",
-        "after_D8cBqg"
+        "ai_gen_block_fd82a43_pzrcQ8"
       ],
-      "name": "t:sections.before_after.presets.before_after.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
-      }
+      "name": "Benefits comparison table",
+      "settings": {}
     }
   },
   "order": [
@@ -307,7 +366,8 @@
     "scrolling_content_axjWmR",
     "image_with_text_aHJFBd",
     "17747965999cb5a8a1",
+    "before_after_qYC7zh",
     "testimonials_RCpVAj",
-    "before_after_qYC7zh"
+    "blocks_gHWGRH"
   ]
 }
