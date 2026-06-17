@@ -130,7 +130,9 @@
       "block_order": [
         "text_AMWetT"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".section-spacing {margin: 20px 0;}"
+      ],
       "name": "t:sections.scrolling_content.presets.scrolling_content.name",
       "settings": {
         "separate_section_with_border": true,
@@ -256,6 +258,9 @@
       },
       "block_order": [
         "ai_gen_block_fd82a43_c4cfFz"
+      ],
+      "custom_css": [
+        "section {max-width: 780px; margin: 0 auto; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 32px rgba(192, 96, 122, 0.12);}"
       ],
       "settings": {}
     },
