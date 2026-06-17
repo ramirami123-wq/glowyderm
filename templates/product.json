@@ -356,6 +356,9 @@
       "block_order": [
         "ai_gen_block_fd82a43_pzrcQ8"
       ],
+      "custom_css": [
+        ".ai-benefits-table__container-arxlyogxoee1nvys3raigenblockfd82a43pzrcq8 {max-width: 780px; margin: 0 auto; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 32px rgba(192, 96, 122, 0.12);}"
+      ],
       "name": "Benefits comparison table",
       "settings": {}
     }
