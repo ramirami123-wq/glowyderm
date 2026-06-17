@@ -91,8 +91,8 @@
         "product_info_size": 35,
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
-        "desktop_media_layout": "grid",
-        "desktop_media_grid_gap": 30,
+        "desktop_media_layout": "grid_2x",
+        "desktop_media_grid_gap": 19,
         "mobile_controls": "dots",
         "enable_media_autoplay": false,
         "enable_video_looping": true,
@@ -123,21 +123,14 @@
         "text_AMWetT": {
           "type": "text",
           "settings": {
-            "text": "Welcome to our shop"
-          }
-        },
-        "text_4riXQz": {
-          "type": "text",
-          "settings": {
-            "text": "Discover our products"
+            "text": "Delivery all over Lebanon"
           }
         }
       },
       "block_order": [
-        "text_AMWetT",
-        "text_4riXQz"
+        "text_AMWetT"
       ],
-      "disabled": true,
+      "custom_css": [],
       "name": "t:sections.scrolling_content.presets.scrolling_content.name",
       "settings": {
         "separate_section_with_border": true,
@@ -145,91 +138,28 @@
         "scroll_direction": "left",
         "pause_on_hover": false,
         "text_font": "heading",
-        "text_font_size_mobile": 40,
-        "text_font_size_desktop": 96,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 16,
         "section_vertical_spacing_mobile": 10,
         "section_vertical_spacing_desktop": 10,
-        "item_horizontal_spacing_mobile": 10,
-        "item_horizontal_spacing_desktop": 10,
-        "background": "#e74c78",
+        "item_horizontal_spacing_mobile": 20,
+        "item_horizontal_spacing_desktop": 30,
+        "background": "#0F0E0E",
         "text_color": "#ffffff"
       }
     },
     "image_with_text_hjthtV": {
       "type": "image-with-text",
-      "blocks": {
-        "subheading_JKT8MH": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_ykydTh": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_eXFCaa": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_JKT8MH",
-        "heading_ykydTh",
-        "richtext_eXFCaa"
-      ],
       "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_04_09_16_PM.png",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
-      }
-    },
-    "scrolling_content_QctTXw": {
-      "type": "scrolling-content",
-      "blocks": {
-        "text_C7PDbN": {
-          "type": "text",
-          "settings": {
-            "text": "Welcome to our shop"
-          }
-        },
-        "text_yBnELq": {
-          "type": "text",
-          "settings": {
-            "text": "Discover our products"
-          }
-        }
-      },
-      "block_order": [
-        "text_C7PDbN",
-        "text_yBnELq"
-      ],
-      "disabled": true,
-      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "scrolling_speed": 0.3,
-        "scroll_direction": "left",
-        "pause_on_hover": false,
-        "text_font": "heading",
-        "text_font_size_mobile": 40,
-        "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 10,
-        "section_vertical_spacing_desktop": 10,
-        "item_horizontal_spacing_mobile": 10,
-        "item_horizontal_spacing_desktop": 10,
-        "background": "#e74c78",
-        "text_color": "#ffffff"
       }
     },
     "image_with_text_aHJFBd": {
@@ -312,7 +242,7 @@
             "header_background": "#f5f5f5",
             "header_text_color": "#1c1c1c",
             "header_font_size": 16,
-            "us_column_background": "#e74c78",
+            "us_column_background": "#010101",
             "us_column_text_color": "#ffffff",
             "us_cell_background": "#fef5f8",
             "body_text_color": "#5c5c5c",
@@ -327,7 +257,6 @@
       "block_order": [
         "ai_gen_block_fd82a43_c4cfFz"
       ],
-      "disabled": true,
       "settings": {}
     },
     "17747248747043a87c": {
@@ -352,6 +281,54 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "testimonials_RCpVAj": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_g7aNG8": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_UnKBDj": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_CVxCjp": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_g7aNG8",
+        "testimonial_UnKBDj",
+        "testimonial_CVxCjp"
+      ],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -359,9 +336,9 @@
     "related-products",
     "scrolling_content_axjWmR",
     "image_with_text_hjthtV",
-    "scrolling_content_QctTXw",
     "image_with_text_aHJFBd",
     "17747965999cb5a8a1",
-    "17747248747043a87c"
+    "17747248747043a87c",
+    "testimonials_RCpVAj"
   ]
 }
